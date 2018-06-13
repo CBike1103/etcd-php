@@ -16,7 +16,7 @@ class ClientTest extends TestCase
 
     protected function setUp()
     {
-        $this->client = new Client();
+        $this->client = new Client('http://127.0.0.1:2379','username','password');
         $this->client->mkdir($this->dirname);
         $this->client->setRoot($this->dirname);
     }

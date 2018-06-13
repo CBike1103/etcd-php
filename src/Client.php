@@ -21,7 +21,7 @@ class Client
 
     private $root = '';
 
-    public function __construct($server = '', $version = 'v2')
+    public function __construct($server = '', $username = '', $password = '', $version = 'v2')
     {
         $server = rtrim($server, '/');
 
@@ -32,11 +32,13 @@ class Client
         // echo 'Testing server ' . $this->server . PHP_EOL;
 
         $this->apiversion = $version;
-        $this->guzzleclient = new GuzzleClient(
-            array(
-                'base_uri' => $this->server
-            )
-        );
+
+        $config = array();
+        $config['base_uri'] = $this->server;
+        if(!empty($username)){
+            $config['auth'] = array($username,$password);
+        }
+        $this->guzzleclient = new GuzzleClient($config);
     }
 
     /**
