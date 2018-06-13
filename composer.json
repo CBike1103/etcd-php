@@ -12,12 +12,12 @@
     "type": "library",
     "authors": [
         {
-            "name": "Joost Faassen",
-            "email": "j.faassen@linkorb.com",
-            "role": "Development"
-        },{
             "name": "Chen Fang",
             "email": "ChenFang@youzu.com",
+            "role": "Development"
+        },{
+            "name": "Joost Faassen",
+            "email": "j.faassen@linkorb.com",
             "role": "Development"
         }
     ],
