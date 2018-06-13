@@ -1,5 +1,5 @@
 {
-    "name": "cbike1103/etcd-php",
+    "name": "youzusg/etcd-php",
     "description": "Etcd client library for PHP with basic auth function",
     "homepage": "https://github.com/youzusg/etcd-php",
     "keywords": [
