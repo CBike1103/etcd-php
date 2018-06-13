@@ -1,7 +1,7 @@
 {
-    "name": "linkorb/etcd-php",
-    "description": "Etcd client library for PHP",
-    "homepage": "http://www.github.com/linkorb/etcd-php",
+    "name": "youzusg/etcd-php",
+    "description": "Etcd client library for PHP with basic auth function",
+    "homepage": "https://github.com/youzusg/etcd-php",
     "keywords": [
         "php",
         "etcd",
@@ -12,8 +12,8 @@
     "type": "library",
     "authors": [
         {
-            "name": "Joost Faassen",
-            "email": "j.faassen@linkorb.com",
+            "name": "Chen Fang",
+            "email": "crossfire1103@gmail.com",
             "role": "Development"
         }
     ],
