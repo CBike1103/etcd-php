@@ -18,12 +18,6 @@ cd etcd
 ./bin/etcd
 ````
 
-## Brought to you by the LinkORB Engineering team
-
-Check out our other projects at [linkorb.com/engineering](http://www.linkorb.com/engineering).
-
-Btw, we're hiring!
-
 
 ## Usage
 
