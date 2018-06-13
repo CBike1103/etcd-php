@@ -35,8 +35,8 @@ class Client
 
         $config = array();
         $config['base_uri'] = $this->server;
-        if(!empty($username)){
-            $config['auth'] = array($username,$password);
+        if (!empty($username)) {
+            $config['auth'] = array($username, $password);
         }
         $this->guzzleclient = new GuzzleClient($config);
     }
