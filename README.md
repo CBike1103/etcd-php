@@ -31,7 +31,8 @@ Btw, we're hiring!
 ### The client
 
 ```php
-    $client = new Client($server);
+    // $client = new Client($server); 
+    $client = new Client($server,$username,$password);
     $client->set('/foo', 'fooValue');
     // Set the ttl
     $client->set('/foo', 'fooValue', 10);
